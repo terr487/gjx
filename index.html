@@ -1,0 +1,239 @@
+﻿<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#100f0e">
+  <meta name="description" content="戏台空寂，旧腔新生——一段关于中国高甲戏、空台与少年伶人的闽南叙事。">
+  <title>高甲戏 · 戏台空寂，旧腔新生</title>
+  <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script>document.documentElement.classList.add('js');</script>
+  <noscript><style>.curtain-overlay{display:none!important}.curtain-closed{overflow:auto!important}</style></noscript>
+</head>
+<body class="curtain-closed">
+  <a href="#prologue" style="position:fixed;left:12px;top:12px;z-index:1100;padding:10px 14px;color:#fff;background:#a83226;border-radius:999px;transform:translateY(-180%)" onfocus="this.style.transform='translateY(0)'" onblur="this.style.transform='translateY(-180%)'">跳到正文</a>
+
+  <div class="reading-progress" aria-hidden="true"><div class="reading-progress__bar"></div></div>
+
+  <div class="curtain-overlay" id="curtainOverlay" aria-hidden="false">
+    <div class="curtain-panel curtain-panel--left"></div>
+    <div class="curtain-panel curtain-panel--right"></div>
+    <button class="curtain-open" id="openCurtain" type="button" aria-label="启幕并开始阅读" aria-expanded="false">
+      <span>启幕</span>
+      <small>向下入戏</small>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v16M6 14l6 6 6-6"/></svg>
+    </button>
+  </div>
+
+  <header class="topbar">
+    <a class="brand-mini" href="#cover" aria-label="高甲戏 H5 首页">
+      <img src="assets/images/favicon.svg" alt="">
+      <span>高甲戏<small>GAOJIA OPERA</small></span>
+    </a>
+    <div class="top-actions">
+      <button class="icon-btn" type="button" data-open-share aria-label="分享本页" title="分享">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.6 10.5 6.8-4M8.6 13.5l6.8 4"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <aside class="desktop-aside desktop-aside--left" aria-hidden="true">中国戏曲 · 高甲戏</aside>
+  <aside class="desktop-aside desktop-aside--right" aria-hidden="true">戏台空寂 · 旧腔新生</aside>
+
+  <nav class="scene-dots" aria-label="场景导航">
+    <a href="#prologue" data-label="暮风垂幕" aria-label="暮风垂幕"></a>
+    <a href="#memory" data-label="旧时灯火" aria-label="旧时灯火"></a>
+    <a href="#empty-stage" data-label="空台问腔" aria-label="空台问腔"></a>
+    <a href="#renewal" data-label="风续新声" aria-label="风续新声"></a>
+    <a href="#finale" data-label="旧腔未央" aria-label="旧腔未央"></a>
+  </nav>
+
+  <main class="h5-shell" id="cover">
+    <section class="scene scene--cover" aria-labelledby="cover-title">
+      <div class="cover-bg parallax" data-speed="0.045"></div>
+      <div class="dust-layer" aria-hidden="true"></div>
+      <div class="cover-seal" aria-hidden="true"><span>闽南古调<br>非遗记忆</span></div>
+      <div class="cover-content">
+        <div class="cover-kicker reveal">中国戏曲 · 高甲戏</div>
+        <h1 id="cover-title" class="reveal reveal-delay-1"><span>戏台空寂</span><span>旧腔新生</span></h1>
+        <p class="cover-subtitle reveal reveal-delay-2">暮风垂幕，一院空光阴。<br>一段关于空台、坚守与少年伶人的闽南叙事。</p>
+        <div class="cover-meta reveal reveal-delay-3"><span>福建 · 闽南</span><i></i><span>纪录片式长卷</span><i></i><span>向下阅读</span></div>
+      </div>
+      <div class="scroll-cue" aria-hidden="true">SCROLL</div>
+    </section>
+
+    <section class="scene scene--ink scene--intro" id="prologue" data-scene tabindex="-1" aria-labelledby="prologue-title">
+      <span class="vertical-label" aria-hidden="true">暮风垂幕</span>
+      <div class="intro-overline reveal">第一幕 · 一院空光阴</div>
+      <blockquote class="intro-quote reveal">暮风垂幕，<br>一院空光阴。<cite>高甲戏 · 闽南叙事</cite></blockquote>
+      <div class="body-copy">
+        <p class="reveal dropcap">闽南的暮色，裹着潮润的温柔缓缓沉落。晚风钻过古戏台风化的木梁，撩起垂悬已久的布幕，掀开一角静置多年的光阴。</p>
+        <p class="reveal">台上仿佛仍有水袖回旋、腔韵流转；台下长凳蒙尘，四下寥落。一盛一空，一喧一寂，便是高甲戏落在乡土里当下的模样。</p>
+      </div>
+      <figure class="photo-card reveal image-reveal">
+        <img src="assets/images/send-water-rice.jpg" alt="高甲戏《送水饭》两位人物舞台剧照" loading="lazy">
+        <figcaption><strong>《送水饭》</strong></figcaption>
+      </figure>
+      <p class="pull-line reveal">这一方戏台，<br>曾是整片村落的烟火圆心。<small>旧时锣鼓一响，乡音便顺着巷陌漫开</small></p>
+      <div class="scene-divider reveal"><span>暮</span></div>
+      <div class="body-copy">
+        <p class="reveal">风不曾停下流转，人间烟火却早已改换模样。如今雕梁犹在，戏服、曲牌、身段依旧恪守古法，只是昔日满堂盛景难寻。</p>
+        <p class="reveal">光影斑驳落于空凳之上，晚风掠过空旷席位，卷走旧年喧嚣，只留一缕唱腔余韵，在古村静静回荡。</p>
+      </div>
+    </section>
+
+    <section class="scene scene--paper scene--memory" id="memory" data-scene aria-labelledby="memory-title">
+      <span class="vertical-label" aria-hidden="true">旧时灯火</span>
+      <div class="chapter-mark reveal"><b>贰</b> 旧时灯火</div>
+      <h2 id="memory-title" class="reveal">一院烟火，<br><em>旧梦未凉</em></h2>
+      <div class="body-copy">
+        <p class="reveal">往昔锣鼓一响，乡音顺着巷陌漫开。星子垂落的夏夜，远近乡人踏着晚风赴约。台上眉眼流转，唱尽离合悲欢；台下灯火融融，人声喧腾，孩童追逐，老者静听。</p>
+        <p class="reveal">铿锵软糯的曲调，是乡土的欢愉，也是游子安放乡愁的归处。年年曲声不断，戏台驮着一整代闽南人的故土记忆，把乡音刻进血脉。</p>
+      </div>
+      <figure class="photo-card photo-card--vintage photo-card--offset reveal image-reveal">
+        <img src="assets/images/historic-crowd.jpg" alt="20世纪80年代泉州乡村群众围看高甲戏的黑白照片" loading="lazy">
+        <figcaption><strong>80 年代 · 泉州乡村</strong> · 远近乡人踏着晚风赴约</figcaption>
+      </figure>
+      <p class="pull-line reveal">灯火融融，人声喧腾。<br>戏台驮着一整代人的乡愁。<small>那时锣鼓一响，整片村落都亮了起来</small></p>
+      <div class="photo-frame reveal">
+        <img src="assets/images/phoenix-crown.jpg" alt="高甲戏《凤冠梦》人物坐姿造型" loading="lazy">
+        <figcaption>高甲戏《凤冠梦》人物造型 · 戏服、曲牌与身段仍恪守古法</figcaption>
+      </div>
+      <div class="body-copy">
+        <p class="reveal">如今雕梁犹在，昔日满堂盛景难寻。晚风掠过空旷席位，卷走旧年喧嚣，只留一缕唱腔余韵，在古村静静回荡。</p>
+      </div>
+    </section>
+
+    <section class="scene scene--ink stage-empty" id="empty-stage" data-scene aria-labelledby="empty-title">
+      <span class="vertical-label" aria-hidden="true">空台问腔</span>
+      <div class="chapter-mark reveal"><b>叁</b> 空台问腔</div>
+      <h2 id="empty-title" class="reveal">无人喝彩，<br><em>仍要登场</em></h2>
+      <div class="body-copy">
+        <p class="reveal dropcap">台上身段鲜活，台下只剩空寂。途经此地的人望见此景，多半暗自怅然：这门古老戏艺，怕是要在时代浪潮里慢慢消散。</p>
+        <p class="reveal">快节奏的当下，碎片化娱乐抢占目光，绵长沉敛的古调很难留住匆匆行人。戏台长久守着空荡木凳，像一处被遗忘的旧隅。</p>
+        <p class="reveal emphasis">暮色渐凉，帘纹随风轻颤。戏场之中，没有喝彩，没有看客，唯有余晖铺满地。</p>
+      </div>
+      <figure class="photo-card photo-card--portrait reveal image-reveal">
+        <img src="assets/images/monkey-king.jpg" alt="高甲戏《送水饭》演员腾跃身段" loading="lazy">
+        <figcaption><strong>《送水饭》</strong> · 老伶人抬袖、凝眸、转身，一招一式一如往昔</figcaption>
+      </figure>
+      <div class="body-copy">
+        <p class="reveal">老伶人立在台中央，慢慢理平微微泛旧的戏衣，抬袖、凝眸、转身，一招一式，和多年前满座喧闹时分毫无二致。</p>
+        <p class="reveal">晚风穿过多重空席，似在无声叩问：无人观赏，又何必登台？</p>
+      </div>
+      <div class="empty-highlight reveal">腔韵缓缓而起，不伴锣鼓，不候掌声，<br>整折唱段自始至终安稳流转。</div>
+      <p class="stage-caption reveal">余音消散，空台之上漫出低语</p>
+    </section>
+
+    <section class="quote-scene" aria-label="高甲戏精神独白">
+      <div class="quote-bg parallax" data-speed="0.06"></div>
+      <div class="dust-layer" aria-hidden="true"></div>
+      <img class="mask-watermark" src="assets/images/opera-mask.svg" alt="" aria-hidden="true">
+      <div class="quote-inner reveal">
+        <blockquote>“戏，不是唱给人看的，<span>是唱给岁月听的。”</span></blockquote>
+        <cite>空台之上的低语 · 高甲戏</cite>
+      </div>
+    </section>
+
+    <section class="scene scene--paper" aria-labelledby="reflection-title">
+      <div class="chapter-mark reveal"><b>留白</b> 空台不等于落幕</div>
+      <h2 id="reflection-title" class="reveal">空台不是遗憾，<br><em>是留给传承的留白</em></h2>
+      <div class="body-copy">
+        <p class="reveal dropcap">从前满堂人声，是烟火捧场；如今四野寂然，是本心自持。世人见戏台空旷，便认定戏韵将凉，可戏魂本就不在人头攒动，而在执戏之人不肯放下的坚守。</p>
+        <p class="reveal emphasis">空台不是落幕的遗憾，恰恰留给传承一片留白。</p>
+      </div>
+      <p class="pull-line reveal">台下空寂，<br>台上从未退场。<small>一腔一调，仍按旧时的规矩起落</small></p>
+    </section>
+
+    <section class="scene scene--renewal" id="renewal" data-scene aria-labelledby="renewal-title">
+      <span class="renewal-sun" aria-hidden="true"></span>
+      <span class="vertical-label" aria-hidden="true">风续新声</span>
+      <div class="renewal-head">
+        <div class="chapter-mark reveal"><b>肆</b> 风续新声</div>
+        <h2 id="renewal-title" class="reveal">风续新声，<br><em>古调赴远方</em></h2>
+        <div class="body-copy">
+          <p class="reveal dropcap">冷清从来锁不住一脉旧腔。年轻的扮演者循着台上学来的范式，一遍遍摹练唱段，留住翩跹水袖里流转的韵致。</p>
+          <p class="reveal">不必等候满堂坐席，自有同频的少年人循着乡音奔赴而来，静静伫立台下，接住这一曲闽南古调。他们终于读懂，这便是祖辈口中的高甲戏，婉转腔调深处，埋着故土的根。</p>
+        </div>
+      </div>
+      <div class="renewal-grid">
+        <figure class="reveal image-reveal">
+          <img src="assets/images/stage-ensemble.jpg" alt="高甲戏舞台群像演出" loading="lazy">
+          <figcaption>方寸戏台，借新生代的脚步走出古村边界</figcaption>
+        </figure>
+        <figure class="reveal image-reveal reveal-delay-1">
+          <img src="assets/images/village-stage.jpg" alt="乡村戏台高甲戏演出现场" loading="lazy">
+          <figcaption>旧腔落在更多乡野与厅堂</figcaption>
+        </figure>
+      </div>
+      <div class="renewal-note reveal">热闹本就不止一种形态。<strong>木凳满座不是传承唯一的答案</strong>，掌声也不必只属于旧日的看客。</div>
+      <div class="renewal-list">
+        <div class="renewal-item reveal"><b>01</b><div><h3>被新一代看见</h3><p>同频的少年循着乡音而来，在台下接住一曲闽南古调。</p></div></div>
+        <div class="renewal-item reveal"><b>02</b><div><h3>走向更远场域</h3><p>旧腔随年轻演员流转四方，落在更多乡野与厅堂。</p></div></div>
+        <div class="renewal-item reveal"><b>03</b><div><h3>被重新偏爱</h3><p>传统不再只靠怀旧存活，而由新一代共情、理解与选择。</p></div></div>
+      </div>
+      <p class="youth-quote reveal">旧戏不负山海，<br>乡愁自有归处。<small>传统终觅新生</small></p>
+    </section>
+
+    <section class="finale" id="finale" data-scene aria-labelledby="finale-title">
+      <div class="finale-bg parallax" data-speed="0.055"></div>
+      <div class="dust-layer" aria-hidden="true"></div>
+      <div class="finale-inner">
+        <div class="chapter-mark reveal"><b>尾声</b> 旧腔未央</div>
+        <h2 id="finale-title" class="reveal"><span>晚风岁岁不息</span><span>旧腔代代新生</span></h2>
+        <p class="reveal">一座戏台，收纳山海乡愁；<br>一代少年伶人，承续不绝文脉。</p>
+        <div class="finale-seal reveal" aria-hidden="true">高甲<br>戏</div>
+        <div class="finale-actions reveal">
+          <button class="btn-line" type="button" data-open-share>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.6 10.5 6.8-4M8.6 13.5l6.8 4"/></svg>
+            分享这出戏
+          </button>
+          <button class="btn-line" type="button" onclick="window.scrollTo({top:0,behavior:'smooth'})">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12a8 8 0 1 0 2.3-5.7L4 8.6M4 4v4.6h4.6"/></svg>
+            再看一遍
+          </button>
+        </div>
+        <div class="finale-credit reveal">文字改编自《戏台空寂，旧腔新生》<br>图片素材来自文稿内嵌剧照</div>
+      </div>
+    </section>
+
+    <section class="notes" aria-labelledby="notes-title">
+      <div class="notes-head">
+        <h2 id="notes-title">创作手记</h2>
+        <p>关于这条叙事为什么这样展开，以及那些藏在文字背后的技法。</p>
+      </div>
+      <button class="notes-toggle" id="notesToggle" type="button" aria-expanded="false" aria-controls="notesContent">
+        <span>展开幕后创作札记</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+      </button>
+      <div class="notes-content" id="notesContent" hidden>
+        <article class="note-card"><span>草蛇灰线法</span><h3>晚风是隐而不彰的线索</h3><p>从暮风撩幕、乡人赴戏，到空席叩问与岁岁不息，晚风勾连旧日繁华、老伶人的孤守和新生代的接续。</p></article>
+        <article class="note-card"><span>虚实相间法</span><h3>实景为基底，回忆与未来为双翼</h3><p>眼前的风化戏台是实写，昔日满堂与少年携古调远走是虚写。一冷一热、一昔一今，拉开时空张力。</p></article>
+        <article class="note-card"><span>峰回路转法</span><h3>空台不等于落幕</h3><p>先让读者走入“古戏将亡”的伤感，再由老伶人独唱与年轻演员接续推翻预判，将主题转向坚守与代际传承。</p></article>
+        <article class="note-card"><span>獭尾法</span><h3>曲终奏雅，言有尽而意无穷</h3><p>核心事件落地后，以戏台、唱腔、乡愁与少年伶人缓缓收束，让冲突沉淀为绵长余韵。</p></article>
+      </div>
+      <button class="scroll-top" id="scrollTop" type="button" aria-label="回到开头">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 15 6-6 6 6"/></svg>
+      </button>
+    </section>
+  </main>
+
+  <div class="share-modal" id="shareModal" role="dialog" aria-modal="true" aria-labelledby="shareTitle" aria-hidden="true">
+    <div class="share-card">
+      <button class="share-close" type="button" aria-label="关闭分享窗口">×</button>
+      <h2 id="shareTitle">把这出戏分享出去</h2>
+      <p>让更多人听见闽南古调里，代代不绝的回声。</p>
+      <div class="share-link-row">
+        <div class="share-link" id="shareLink">file:///D:/bk/gaojia-h5/index.html</div>
+        <button class="copy-btn" id="copyLink" type="button">复制</button>
+      </div>
+      <div class="share-hint" role="status" aria-live="polite">复制链接，分享给同频的人</div>
+    </div>
+  </div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
+
+
